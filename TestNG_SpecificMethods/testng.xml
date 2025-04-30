@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SpecificMethodsSuite">
+  <test name="GoogleTests">
+    <classes>
+      <class name="tests.GoogleSearchTest">
+        <methods>
+          <include name="testGoogleTitle"/>
+          <include name="testSearchFunctionality"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
